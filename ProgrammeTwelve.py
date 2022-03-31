@@ -15,4 +15,4 @@ minutes = int(input("Enter the number of minutes: \n"))
 seconds = (hours * 3600) + (minutes * 60)
 print(seconds)
 
-#Approach Two: Using libraries
+
