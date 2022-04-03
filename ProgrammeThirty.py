@@ -1,13 +1,20 @@
 digit = 0
-letters = 0
-sentence =  input("Enter a scentence below\n")
-for i in sentence:
-    if type(i) == int:
+alphabet = 0
+upper = 0
+lower = 0
+input_string = input("Enter a phrase/string\n")
+for i in input_string:
+    if i.isalpha():
+        alphabet += 1
+        if i.isupper():
+            upper += 1
+        elif i.islower():
+            lower += 1
+    elif i.isdigit():
         digit += 1
-    elif type(i) == str:
-        letters += 1
     else:
         pass
-
-print(digit)
-print(letters)
+print("Digits:" + str(digit))
+print("Alphabets: " + str(alphabet))
+print("Upper: " + str(upper))
+print("Lower: " + str(lower))
