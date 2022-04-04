@@ -1,16 +1,18 @@
-import math
-final_list = []
+s = int(input("Enter the starting range: \n"))
+e = int(input("Enter the ending range: \n"))
+number = ""
 lst = []
-n = 872673
-c = math.ceil(n)
-print(c)
+for i in range(s,e+1):
+    a = str(i)
+    for j in a:
+        if int(j) % 2 == 0:
+            lst.append(i)
+print(i)
 
-# def digit_divisibility(n):
-#     while n > 0:
-#         lst.append(n % 10)
-#         n //= 10
-#         return lst[::-1]
-# print(digit_divisibility(15))
+
+
+
+
 
 
 

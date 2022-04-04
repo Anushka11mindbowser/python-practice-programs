@@ -23,10 +23,10 @@ number = int(input("Enter the number of elements you need:\n"))
 for i in range(0,number):
     item = int(input("Enter the elements"))
     empty_lst.append(item)
-
+print(empty_lst)
 for j in empty_lst:
     if j % 2 != 0:
-        result_b.append(i*i)
+        result_b.append(j**2)
 print(result_b)
 
 

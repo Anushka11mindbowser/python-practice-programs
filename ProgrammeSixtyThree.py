@@ -1,6 +1,10 @@
+import math
 def robotic_movement():
-
-  n = int(input("Enter the number of directions you want to give"))
-  for i in range(0, n):
-      input_string = input("Enter the direction: \n")
-      for i in input_string:
+    directions = 0
+    n = int(input("Enter the number of commands: \n"))
+    for i in range(0,n):
+        command = input("Enter the command: \n")
+        measurement = command[-1]
+        directions += int(measurement)
+    return math.floor(directions)
+print(robotic_movement())
