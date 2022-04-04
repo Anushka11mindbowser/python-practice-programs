@@ -17,3 +17,13 @@ def reversing(string4):
     return stringg
 
 print(reversing("Paris"))
+
+#Approach Four: Using while loop
+def reversify(s):
+    s1 = ""
+    l = len(s) - 1
+    while l >= 0:
+        s1 = s1 + s[l]
+        l -= 1
+    return s1
+print(reversify("Anushka"))

@@ -15,3 +15,23 @@ def subtract(list1):
     diff = l - s
     return diff
 print(subtract(lst))
+
+#Approach Three:
+def find_max(list):
+    max = 0
+    for i in list:
+        if  i > max:
+            max = i
+    return max
+
+def find_min(list):
+    min = list[0]
+    for i in list:
+        if i < min:
+            min = i
+    return min
+
+a = find_max(lst)
+b = find_min(lst)
+diff = a - b
+print(diff)
