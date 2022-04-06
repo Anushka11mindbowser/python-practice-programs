@@ -1,5 +1,5 @@
 #Approach One
-
+# Programme to add two numbers, a and b are two arguments that are passed into add function
 def add(a, b):
     return a + b
 
@@ -13,7 +13,7 @@ c = a + b;
 print(c)
 
 #Approach Three
-
+# a and b are integers to be added
 def addition():
     a = int(input("Enter the first number:\n"))
     b = int(input("Enter the second number:\n"))

@@ -1,4 +1,5 @@
 #Approach One
+# Function to return next number of a given particular number
 
 def next_num(n):
     return n + 1;
@@ -7,7 +8,7 @@ print(next_num(5))
 
 #Approach Two
 
-num = 17;
+num = 17
 print("The next number is: " + str(num + 1))
 
 #Approach Three

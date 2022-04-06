@@ -8,5 +8,5 @@ for i in input_words:
     else:
         res_lst.append(i)
 res_string = " ".join(res_lst)
-print(res_string)
+print("Result:" + res_string + ".\n")
 

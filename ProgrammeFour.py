@@ -1,5 +1,6 @@
 #Approach One: Using Math library
 import math
+#Function that uses remainder() to find out remainder
 def remainder_lib(x,y):
     if y !=0:
         m = math.remainder(27,4)
