@@ -3,6 +3,7 @@ alphabet = 0
 upper = 0
 lower = 0
 input_string = input("Enter a phrase/string\n")
+
 for i in input_string:
     if i.isalpha():
         alphabet += 1

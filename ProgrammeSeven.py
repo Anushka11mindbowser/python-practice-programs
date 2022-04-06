@@ -1,8 +1,11 @@
 #Approach One: Using inbuilt-function
-x = int(input("Enter the base\n"))
-y = int(input("Enter the exponent\n"))
-result =  pow(x,y)
-print(result)
+x = (input("Enter the base\n"))
+y = (input("Enter the exponent\n"))
+if x.isdigit() and y.isdigit():
+    result = pow(int(x),int(y))
+    print(result)
+else:
+    print("Invalid Input")
 
 #Approach Two: Using operators/Using functions
 def power_calculator(base,exponent):

@@ -3,10 +3,13 @@ import math
 def divide_lib():
     num1 = int(input("Dividend:"))
     num2 = int(input("Divisor:"))
-    if (math.remainder(num1, num2) == 0):
-        return True
+    if num2 != 0:
+        if (math.remainder(num1, num2) == 0):
+            return True
+        else:
+            return False
     else:
-        return False
+        return "Divisor cannot be zero!"
 print(divide_lib())
 
 

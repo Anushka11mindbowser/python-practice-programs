@@ -1,11 +1,15 @@
 #Approach One: using class functions
 class Calculator:
     def __init__(self):
+
         self.a = int(input("Enter the first number\n"))
         self.b = int(input("Enter the second number\n"))
 
     def add(self):
-        return self.a + self.b
+        try:
+            return self.a + self.b
+        except:
+            return "Invalid"
 
     def subtract(self):
         return self.a - self.b
@@ -44,5 +48,4 @@ def calc():
         return "Invalid Input"
 
 print(calc())
-
 

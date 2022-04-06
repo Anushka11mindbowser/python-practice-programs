@@ -8,7 +8,10 @@ print(hours_to_seconds(11))
 
 #Approach Three
 hour = int(input("Enter the number of hours here:"))
-print(hour * 3600)
+if hour != 0:
+    print(hour * 3600)
+else:
+    print("Invalid Input")
 
 #Approach Four
 def hours_conversion():

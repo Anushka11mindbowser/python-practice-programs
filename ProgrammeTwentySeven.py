@@ -7,8 +7,11 @@ class Demo:
          return self.strng
 
     def printString(self):
-        updated_string = self.strng.upper()
-        return updated_string
+        if self.strng.isdigit():
+            return "You entered a numeric value"
+        else:
+            updated_string = self.strng.upper()
+            return updated_string
 
 
 

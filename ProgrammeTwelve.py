@@ -10,9 +10,11 @@ def calculate_time():
 
 
 #Approach Two: Basic Approach
-hours = int(input("Enter the the hours: \n"))
-minutes = int(input("Enter the number of minutes: \n"))
-seconds = (hours * 3600) + (minutes * 60)
-print(seconds)
-
+try:
+    hours = int(input("Enter the the hours: \n"))
+    minutes = int(input("Enter the number of minutes: \n"))
+    seconds = (hours * 3600) + (minutes * 60)
+    print(seconds)
+except:
+    print("Enter correct values")
 

@@ -17,8 +17,12 @@ print(c)
 def addition():
     a = int(input("Enter the first number:\n"))
     b = int(input("Enter the second number:\n"))
-    c = a + b
-    return "The Addition is: " + str(c) + "."
+    if type(a) and type(b) == int:
+        c = a + b
+        return "The Addition is: " + str(c) + "."
+    else:
+        return "Invalid Input"
+
 
 print(addition())
 
@@ -27,5 +31,6 @@ print(addition())
 
 fnum = int(input("Enter the first number:\n"))
 snum = int(input("Enter the second number:\n"))
+
 print(fnum + snum)
 

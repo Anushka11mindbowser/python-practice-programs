@@ -12,9 +12,12 @@ print(lst)
 lst.insert(2,8)
 print(lst)
 #Approach Five: Accepting input from the user
-i = int(input("Enter the index at which you have to insert the element: \n"))
-si = int(input("Enter the subindex at which you have to insert the element:\n"))
-ele = int(input("Enter the element you want to insert: \n"))
-# lst[i].append(ele)
-lst[i].insert(si,ele)
-print(lst)
+try:
+    i = int(input("Enter the index at which you have to insert the element: \n"))
+    si = int(input("Enter the subindex at which you have to insert the element:\n"))
+    ele = int(input("Enter the element you want to insert: \n"))
+    # lst[i].append(ele)
+    lst[i].insert(si,ele)
+    print(lst)
+except:
+    print("Incorrect Input")

@@ -9,10 +9,13 @@ print(lst)
 
 list1 = []
 def multiples_of_seven():
-    s = int(input("Enter the starting range\n"))
-    e = int(input("Enter the ending range\n"))
-    for j in range(s, e +1):
-        if (j % 7 == 0 and j % 5 != 0):
-            list1.append(j)
-    print(list1)
+        try:
+            s = int(input("Enter the starting range\n"))
+            e = int(input("Enter the ending range\n"))
+            for j in range(s, e +1):
+                if (j % 7 == 0 and j % 5 != 0):
+                    list1.append(j)
+            return list1
+        except:
+            return "Enter input correctly"
 print(multiples_of_seven())

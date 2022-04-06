@@ -9,8 +9,11 @@ def age_in_days(bday):
 print(age_in_days(date(2005,12,22)))
 
 #Approach Two: Basic way
-age = int(input("Enter the age in years\n"))
-print("The age in days would be : \n" + str(age*365))
+age = (input("Enter the age in years\n"))
+if age.isdigit():
+    print("The age in days would be : \n" + str(int(age)*365))
+else:
+    print("Invalid Input")
 
 #Approach Three: Using class
 class calculateAge:

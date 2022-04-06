@@ -16,8 +16,11 @@ print(real_madrid.calculate_score())
 
 #Approach Two: Using normal function
 def football_score():
-    win = int(input("Enter the number of wins: \n"))
-    losses = int(input("Enter the number of losses: \n"))
-    draws = int(input("Enter the number of draws: \n"))
-    return (win * 3) + (draws *1)
+    try:
+        win = int(input("Enter the number of wins: \n"))
+        losses = int(input("Enter the number of losses: \n"))
+        draws = int(input("Enter the number of draws: \n"))
+        return (win * 3) + (draws *1)
+    except:
+        print("Entered wrong values")
 print(football_score())

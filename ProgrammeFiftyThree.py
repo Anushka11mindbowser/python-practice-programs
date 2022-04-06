@@ -1,4 +1,4 @@
-#Approach One: Using set function and entering elements manually
+ #Approach One: Using set function and entering elements manually
 input_string = input("Enter the list elements")
 lst = input_string.split(" ")
 updated_lst = set(lst)

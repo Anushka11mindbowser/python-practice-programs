@@ -2,6 +2,7 @@
 strng = input("Enter a string of your choice:\n")
 
 
+
 print(strng[::-1])
 #Approach Two: Using join and reversed method
 def reverse_function(string3):
