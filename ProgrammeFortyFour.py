@@ -1,3 +1,5 @@
+#Programme to append the elemets at odd  numbered indexes from two different lists
+
 #Appproach One: Using index method
 lst =[]
 new_lst = []

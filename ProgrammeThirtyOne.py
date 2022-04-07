@@ -1,9 +1,11 @@
+#Programme to square the elements present at odd-numbered indexes
 #Approach One: Using list comprehensions
 lst = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
 result = [i**2 for i in lst if i%2 != 0]
 print(result)
 
 #Approach using if-else
+#Defining an empty list for results
 result_a = []
 for i in lst:
     if i % 2 != 0:

@@ -1,3 +1,4 @@
+#Merging two dictionaries
 #Approach One: Uisng pipeline operator
 my_dict ={'a':10,'b':20}
 your_dict = {'c':30, 'd':40}

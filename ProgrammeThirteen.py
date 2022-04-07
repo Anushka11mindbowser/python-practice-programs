@@ -1,4 +1,4 @@
-#Approach One: Using str
+#Approach One: Using int()
 
 input1 = input("Enter a string to convert it into an int\n")
 int(input1)

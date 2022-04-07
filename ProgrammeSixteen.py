@@ -8,6 +8,7 @@ print(min_value(lst))
 #Approach Two: Using sort function
 
 def using_sort(list1):
+    #Sorting the list first and accessing the first element
     list1.sort()
     return list1[0]
 print(using_sort(lst))

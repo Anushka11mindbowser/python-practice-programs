@@ -4,5 +4,6 @@ def string_length():
     for i in strng:
         count += 1
     return count
-print(string_length())
+print("The length of string is: " + str(string_length()))
+
 

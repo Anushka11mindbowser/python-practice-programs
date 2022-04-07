@@ -1,4 +1,5 @@
 #Approach One: Simple Approach
+#Defining a list to append the result
 lst = []
 for i in range(7,71 ):
     if (i % 7 == 0 and i % 5 != 0):

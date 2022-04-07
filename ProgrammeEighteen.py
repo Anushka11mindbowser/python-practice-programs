@@ -1,5 +1,5 @@
 #Approach One: Using itertools library
-
+#Concatatnating two lists
 import itertools
 
 
@@ -52,4 +52,4 @@ print(using_star(list_a,list_b))
 def list_comprehded(lst1, lst2):
      res = [y for x in [lst1, lst2] for y in x]
      return res
-print(list_a, list_b)
+print(list_comprehded(list_a, list_b))

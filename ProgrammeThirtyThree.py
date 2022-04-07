@@ -1,10 +1,14 @@
 #Approach One:
+#Defining list for all the values that can be considered as special characters
 special_characters = ["!","@",'#','$','%','^','&','*','(',')']
+#Initializing the counters for different componnets
 alphabet = 0
 digit = 0
 whitespace = 0
 upper = 0
 sc = 0
+
+
 
 input_string = input("Enter your password")
 updated_password = input_string.split(",")

@@ -1,5 +1,5 @@
 #Approach One:
-
+#Programme to sum up all the elements in the list
 lst = [7, 9, 34, 56, 100]
 
 def lst_sum(listt):

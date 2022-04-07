@@ -13,11 +13,15 @@ print(sort_lst_reverse(lst))
 #Approach Two: Using split function
 try:
     console_input = input("Enter the elements by seperating them by space\n")
-    if console_input.isdigit():
-        liist = console_input.split(' ')
-        print(liist)
-    else:
-        print("Invalid Input")
+    liist = console_input.split(' ')
+    sorted_liist = []
+    max_value = 0
+    for i in liist:
+        if i > max_value:
+            i = max_value
+            sorted_liist.append(i)
+            print(sorted_liist)
+
 except:
     print("Wrong input")
 

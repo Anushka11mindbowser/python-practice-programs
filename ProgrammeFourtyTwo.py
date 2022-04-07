@@ -1,5 +1,7 @@
 import re
-#Approach One
+#Approach One: Using replace method
+#Programme to replace a word in a phrase
+
 def replace_word():
     input_string = input("Enter a phrase:\n")
     input_word1 = input("Enter the word to be replaced:\n")
@@ -11,7 +13,7 @@ def replace_word():
         return "The word does not exist in the input string\n"
 
 print(replace_word())
-
+#Programme to replace a letter from a word
 def replace_alphabet():
     input_word = input("Enter a word\n")
     input_alphabet1 = input("Enter the alphabet you want to replace:\n")
@@ -30,3 +32,5 @@ pattern = r'Rose'
 replacement = r'Lilies'
 updated = re.sub(pattern,replacement,sample_phrase)
 print(updated)
+
+

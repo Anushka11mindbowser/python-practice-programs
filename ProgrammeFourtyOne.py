@@ -21,7 +21,9 @@ print(reversing("Paris"))
 
 #Approach Four: Using while loop
 def reversify(s):
+    #Defining an empty string to store the result
     s1 = ""
+    #Determining the lenghth pf the word to be reversed
     l = len(s) - 1
     while l >= 0:
         s1 = s1 + s[l]

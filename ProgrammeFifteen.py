@@ -12,6 +12,7 @@ print(max_value(lst1))
 
 # Approach Two: Using sort() function
 def using_sort(list1):
+    #Sorting the list and accessing the last element
    list1.sort()
    return list1[-1]
 

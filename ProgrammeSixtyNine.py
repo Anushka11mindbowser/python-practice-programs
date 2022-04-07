@@ -1,3 +1,4 @@
+# Using regular expression module
 import re
 count = 0
 strng = input("Enter the string: \n")

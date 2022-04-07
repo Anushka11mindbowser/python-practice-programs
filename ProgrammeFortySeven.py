@@ -3,6 +3,7 @@ lst = [2,4,6,8,10,12,14,16,18,20,4,8,12,16,20,24,28,32,2,6,40]
 def occurances(parameter):
     count = 0
     n = int(input("Enter the element you want to count:\n"))
+    #traversing the list using for loop
     if n in parameter:
         for i in parameter:
             if i == n:

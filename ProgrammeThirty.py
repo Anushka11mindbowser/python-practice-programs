@@ -1,3 +1,5 @@
+#Programme to count uppercase, lowercase, alphabets, digits in a phrase/string
+#Initializing variables to count each components
 digit = 0
 alphabet = 0
 upper = 0
