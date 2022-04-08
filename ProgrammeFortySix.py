@@ -5,10 +5,12 @@ def reverse_chunks(param):
     list1 = sample_list[0:3]
     list2 = sample_list[3:6]
     list3 = sample_list[6:9]
-    list1.reverse()
-    list2.reverse()
-    list3.reverse()
-    return list1,list2,list3
+#Reversing these chunks using slice method
+    updated_list1 =  list1[::-1]
+    updated_list2 = list2[::-1]
+    updated_list3 = list3[::-1]
+
+    return updated_list1, updated_list2, updated_list3
 
 print(reverse_chunks(sample_list))
 

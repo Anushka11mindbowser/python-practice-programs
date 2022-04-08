@@ -3,7 +3,7 @@ import datetime
 try:
     #obtaining day, month, year using strptime()
     day,month,year = input("Enter the date in DD MM YYYY format: \n").split()
-    #Obtaining the code for each weekday using weekday() and then compairing
+    #Obtaining the code for each weekday using weekday() and then compairing them and then printing the output
     week_code = datetime.datetime.strptime(day + " " + month + " " + year, '%d %m %Y').weekday()
     if week_code == 6:
         print("It is a Sunday")

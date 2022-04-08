@@ -1,4 +1,6 @@
 #Approach One: Using datetime libraries and using strptime function
+
+#importing datetime library
 import datetime
 def calculate_time():
     try:
