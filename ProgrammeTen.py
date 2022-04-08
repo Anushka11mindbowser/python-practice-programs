@@ -6,6 +6,7 @@ class Football:
         self.draws = draws;
 
     def calculate_score(self):
+        #Every win accounts for 3 points, draws for 1 point and loss for zero
         w = self.wins * 3
         d = self.draws * 1
         score = w + d

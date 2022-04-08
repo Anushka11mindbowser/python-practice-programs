@@ -1,4 +1,6 @@
 # Approach One: Using max() function
+
+#Defining two lists
 lst = [5, 98, 64576, 9986]
 lst1 = ['zebra', 'giraffe', 'camel', 'buffalo', 'horse']
 
@@ -22,8 +24,10 @@ print(using_sort(lst1))
 #Approach Three: Using comparison
 
 def using_comparison(list1):
+    #Initializing  a variable
     max = 0
     for i in list1:
+        #If the values of an element in the list is greater than max, max gets reassigned to that element
         if i > max:
             max = i
     return max

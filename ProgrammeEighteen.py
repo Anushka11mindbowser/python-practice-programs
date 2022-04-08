@@ -2,11 +2,12 @@
 #Concatatnating two lists
 import itertools
 
-
+#Declaring two different lists
 list_a = ['paris', 'tokyo', 'london', 'berlin', 'new york']
 list_b = ['austin', 'jakarta', 'jaipur', 'oslo', 'pune']
 
 def combine_with_libs(lst1, lst2):
+    #itertools.chain() takes two objects to be concatanated parameters
     result_list = list(itertools.chain(lst1, lst2))
     return result_list
 print(combine_with_libs(list_a,list_b))

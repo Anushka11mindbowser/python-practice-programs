@@ -2,7 +2,9 @@
 from datetime import date
 
 def age_in_days(bday):
+    #Obtaining todays date
     today = date.today()
+    #Finding the difference between current year, month, day and birth day, month, year
     age = today.year - bday.year -((today.month, today.day ) < (bday.month, bday.day))
     return age * 365
 

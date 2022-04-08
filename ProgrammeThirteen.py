@@ -1,15 +1,6 @@
-#Approach One: Using int()
+#Programme to convert an into into string
 
-input1 = input("Enter a string to convert it into an int\n")
-int(input1)
-print(type(input1))
-
-distance = 45
-print(type(distance))
-str(distance)
-print(type(distance))
-
-#Approach Two: Using f-string
+#Approach using f-string
 
 sample_number = 67576
 print(type(f'{sample_number}'))

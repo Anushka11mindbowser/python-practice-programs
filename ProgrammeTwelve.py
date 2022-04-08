@@ -1,15 +1,6 @@
-#Approach One: Using libraries
+#Programme to convert hours and minutes into seconds
 
-from datetime import  datetime
-def calculate_time():
-    current = datetime.now()
-    print(current)
-    
-
-
-
-
-#Approach Two: Basic Approach
+#Basic Approach
 try:
     hours = int(input("Enter the the hours: \n"))
     minutes = int(input("Enter the number of minutes: \n"))

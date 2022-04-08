@@ -1,6 +1,7 @@
 
 #Approach Two
 def hours_to_seconds(hours):
+    #One hour is 60 minutes and 1 minutes is 60 seconds, thus 1 hour is 3600 seconds
     seconds = hours * 3600;
     return str(hours) + " hours are equivalent to " + str(seconds) + " seconds."
 

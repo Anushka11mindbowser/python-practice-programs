@@ -1,5 +1,8 @@
 #Approach One
+
+#Defing a list with methods in it
 sample_list = [5,10,15,20,25]
+#Obtaining the element at first index
 a = sample_list[0]
 print(a)
 
