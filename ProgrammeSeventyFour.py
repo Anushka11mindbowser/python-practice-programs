@@ -15,7 +15,9 @@ except:
 
 #Function to check if a string has a digit in it
 def strings_with_digits(param):
+    #First we traverse through the list
     for j in param:
+    #Then we traverse through the indivisual elements
         for k in j:
             if k in num:
                 result_lst.append(j)

@@ -13,7 +13,7 @@ def left_rotation(strng):
         res_lst.append(resulting_string)
 
     return res_lst
-print("Left Rotation for Puskar: " + str(left_rotation("Pushkar")) + ".\n")
+print("Left Rotation for Pushkar: " + str(left_rotation("Pushkar")) + ".\n")
 
 def right_rotation(strng):
     #Defining a list and appending the string to that list
