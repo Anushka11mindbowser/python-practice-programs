@@ -8,7 +8,9 @@ print(result)
 #Defining an empty list for results
 result_a = []
 for i in lst:
+    #Checking if the number is odd
     if i % 2 != 0:
+        #Appending that number to the list
         result_a.append(i**2)
 print(result_a)
 

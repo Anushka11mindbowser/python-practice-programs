@@ -1,6 +1,7 @@
 #Approach One: Using inbuilt list function
 lst = [887, 656, 887, 935, 938]
 def sort_lst(listt):
+    #Sorting the list
     listt.sort()
     return listt
 print(sort_lst(lst))

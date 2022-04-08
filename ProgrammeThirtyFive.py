@@ -12,12 +12,14 @@ print(compare_string('Anushka', 'Pushkar'))
 
 #Using for loop and counting the number of characters in each string and then comparing the counts
 def string_compare(str1, str2):
+    #Initializing variables to keep count of chars in a string
     count1 = 0
     count2 = 0
     for i in str1:
         count1 += 1
     for j in str2:
         count2 += 1
+        #Compairing two strings
     if count1 > count2:
         return str1
     elif count2> count1:
