@@ -1,8 +1,10 @@
 #Approach One: Using math library: remainder()
 import math
 def divide_lib():
+    #Accepting Dividend and Divisor from the user
     num1 = int(input("Dividend:"))
     num2 = int(input("Divisor:"))
+    #Checking that the divisor is a non-zero value
     if num2 != 0:
         if (math.remainder(num1, num2) == 0):
             return True

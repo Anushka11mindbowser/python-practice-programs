@@ -1,3 +1,5 @@
+
+#Taking input from the users to decide the range
 start = int(input("Enter the starting the range: \n"))
 end = int(input("Enter the ending the range: \n"))
 #initializing an empty list to append resulting values

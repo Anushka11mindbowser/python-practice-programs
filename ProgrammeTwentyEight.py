@@ -4,6 +4,7 @@ try:
     lst = []
     input_string = input("Enter the list of words by seperating them with commas: \n")
 
+    #Divinding the elemets in strings into a list
     lst = input_string.split(",")
     print(lst)
     #Sorting the list

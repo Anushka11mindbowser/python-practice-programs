@@ -1,6 +1,7 @@
 #Approach One: Using for loop
 
 def repeat_string(strng, n):
+    #Initializing a variable to keep the count
     i=0
     for i in range(n):
         print(strng)
@@ -12,6 +13,7 @@ print(repeat_string("Anushka", 5))
 
 def use_while(strng, n):
     i = 0;
+
     while (i < n):
         print(strng)
         i += 1
