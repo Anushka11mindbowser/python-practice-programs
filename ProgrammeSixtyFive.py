@@ -1,8 +1,10 @@
 #Approach One: Using codecs library
 #USing codecs.encode methods to change our ascii input into hexadecimal
+
 import codecs
 def ascii_to_hex(char):
     try:
+#The first parameter in the encode function is for the string that needs to be converted and second parameter is to denote what the string should be converted in
         hex = codecs.encode(b"char", "hex")
         return hex
     except:

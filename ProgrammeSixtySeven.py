@@ -10,7 +10,9 @@ except:
 #Approch 2 : Using the logic of Sunday, the 1
 # The logic for Friday, the  13 is that the 1st of that month always falls on Sunday
 try:
+#Getting month and year as input and then splitting them up to form indivisual variables
     month1, year1 = input("Enter the month and year").split()
+#Again using strptime() to obtain date, month and year indivisually and compairing to see if the 1st of  month falls on Sunday by using weekday()
     print('Yes, this month has Friday, the 13' if datetime.datetime.strptime('1' + ' ' + month1 + ' ' + year1, '%d %m %Y').weekday() == 6 else 'No, this month does not have Friday, the 13')
 except:
     print("Invalid Input")

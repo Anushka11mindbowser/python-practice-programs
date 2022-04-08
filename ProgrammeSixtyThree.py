@@ -11,10 +11,13 @@ def robotic_movement():
             command = input("Enter the command: \n")
             #Spliting the direction and distance
             valid_input = command.split(" ")
+            #Verifying if the command is valid
             if valid_input[0] in valid_directions:
+                #Obtaining the distance the part of the command
                 measurement = command[-1]
                 #Adding up all the distances that have been travelled
                 directions += int(measurement)
+                #Rounding up the total distance
                 return math.floor(directions)
             else:
                 return "Invalid Instruction\n"
